@@ -1,8 +1,9 @@
 {
-    "compilerOptions": {
-        "strict": false
-    },
-    "tasks": {
-        "start":"deno run -A --watch ./src/main.ts"
-    }
+  "compilerOptions": {
+    "strict": false
+  },
+  "tasks": {
+    "start": "deno run -A ./src/main.ts",
+    "dev": "deno run -A --watch ./src/main.ts"
+  }
 }
